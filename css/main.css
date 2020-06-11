@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     margin: 60px auto;
     width: 70%;
@@ -5,6 +6,41 @@ body {
 nav ul, footer ul, footer small {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
+=======
+/*body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}*/
+
+/*body {
+    max-width: 1080px; 
+	margin: 0 auto !important; 
+	float: none !important; 
+}*/
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.blurb {
+    width: 70%;
+    position: relative;
+    left: 69px;
+    top: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+nav ul, footer ul, footer small {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    /*padding: 0px;*/
+>>>>>>> Some style changes
     list-style: none;
     font-weight: bold;
 }
@@ -12,10 +48,23 @@ nav ul li  {
     display: inline;
     margin-right: 50px;
 }
+<<<<<<< HEAD
 footer ul li {
     display: inline;
     margin-right: 0px;
 }
+=======
+nav ul {
+    position: relative;
+    left: -80px;
+    top: 10px;
+}
+/*
+footer ul li {
+    display: inline;
+    margin-right: 0px;
+}*/
+>>>>>>> Some style changes
 a {
     text-decoration: none;
     color: #999;
@@ -29,12 +78,27 @@ h1 {
 }
 p {
     font-size: 1.5em;
+<<<<<<< HEAD
     line-height: 1.4em;
     color: #333;
 }
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
+=======
+    line-height: 1em;
+    color: #333;
+    padding: 0px;
+}
+footer {
+    border-top: 1px solid #d5d5d5;
+    width: 55%;
+    font-size: .8em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 5px
+>>>>>>> Some style changes
 }
 
 ul.posts { 
@@ -45,3 +109,25 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+<<<<<<< HEAD
+=======
+
+/*.img-circle {
+    border-radius: 50%;
+}*/
+
+img.rounded {
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    object-fit: cover;
+    
+    display: block
+  }
+
+.roundimg {
+    position: relative;
+    left: 550px;
+    top: 30px;
+}
+>>>>>>> Some style changes
